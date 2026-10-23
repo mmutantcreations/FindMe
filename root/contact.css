@@ -1,9 +1,27 @@
 
 .img {
-    text-align: center;
     max-width: 30%;
 }
+.input-textarea {
+  margin: 0;
+  font-family: Finger Paint;
+  line-height: inherit;
+  width: 100%;
+  height: 100%;
+}
+p {
+    font-family: Finger Paint;
+    font-size: 18px;
+}
+.h2 {
+    text-align: center;
+    font-family: "New Rocker";
+    font-size: 2em;
 
+}
+.myPic {
+    text-align: center;
+}
 form {
   border: 3px solid #f1f1f1;
   font-family: New Rocker;
@@ -37,7 +55,7 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
   .mm-social-buttons {
-    margin-top: 500px;
+    margin-top: 210px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +98,7 @@ input[type=submit]:hover {
     transform: rotate(-30deg) skew(25deg) translate(0, 0);
     transition: transform 0.5s ease, box-shadow 0.5s ease, background 0.5s ease;
     box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.35);
-    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-family: "Finger Paint";
   }
 
   .mm-social-buttons__link::before {
