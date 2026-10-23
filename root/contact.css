@@ -4,7 +4,7 @@
 }
 .input-textarea {
   margin: 0;
-  font-family: Finger Paint;
+  font-family: "Finger Paint";
   line-height: inherit;
   width: 40%;
   height: auto;
@@ -27,6 +27,7 @@ form {
   font-family: New Rocker;
 }
 .sidepanel  {
+  font-family: "Finger Paint";
   width: 0;
   position: fixed;
   z-index: 1;
