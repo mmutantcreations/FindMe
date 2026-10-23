@@ -7,7 +7,33 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    
+
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  
+  <a href="#">Home</a>
+  <a href="#">What I Do</a>
+  <a href="#">Who?</a>
+  <a href="#">Find Me</a>
+  <a href="#">Coming Soon!</a>
+  
+<BR><BR>
+
+ 
+</div>
+
+  <button class="openbtn" onclick="openNav()">Menu<br>☰</button>
+<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+  document.getElementById("mySidepanel").style.height = "300px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+  document.getElementById("mySidepanel").style.height = "0";
+}
+</script>    
 <div class="myPic">
 <img class="img" src="../images/me.jpg">
 </div>
