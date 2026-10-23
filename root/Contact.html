@@ -8,18 +8,19 @@
 </head>
 <body>
     
-<div>
-<img class="img" src="C:\Users\vault\Desktop\MM Site\FindMe\images\me.jpg">
+<div class="myPic">
+<img class="img" src="../images/me.jpg">
 </div>
 <div>
-<h2>Keep Up-To-Date</h2>
+<h2 class="h2">Sign Up to Keep Up</h2>
 
-<form action="/action_page.php">
+<form action="https://formspree.io/f/mbggrekq" method="POST">
   <div class="container" style="background-color:white">
     <input type="text" placeholder="Name" name="name" required>
-    <input type="text" placeholder="Email address" name="mail" required>
+    <input type="text" placeholder="Email address (if you prefer)" name="mail">
+    <input type="text" placeholder="Phone (if you prefer)"" name="mail">
     <label>
-      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+      <input type="checkbox" checked="checked" name="subscribe" required> Keep Me Posted!
     </label>
   </div>
 
